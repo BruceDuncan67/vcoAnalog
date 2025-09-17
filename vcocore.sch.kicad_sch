@@ -207,7 +207,7 @@
 					)
 				)
 				(pin input line
-					(at -22.86 -20.32 0)
+					(at -19.05 -25.4 0)
 					(length 5.08)
 					(name "SAW_MIX"
 						(effects
@@ -225,7 +225,7 @@
 					)
 				)
 				(pin input line
-					(at -22.86 -17.78 0)
+					(at -16.51 -27.94 0)
 					(length 5.08)
 					(name "PULSE_MIX"
 						(effects
@@ -621,7 +621,7 @@
 					)
 				)
 				(pin input line
-					(at -22.86 -30.48 0)
+					(at -12.7 -50.8 90)
 					(length 5.08)
 					(name "PWM_IN-"
 						(effects
@@ -639,7 +639,7 @@
 					)
 				)
 				(pin input line
-					(at -22.86 -27.94 0)
+					(at -15.24 -50.8 90)
 					(length 5.08)
 					(name "PWM_IN+"
 						(effects
@@ -747,7 +747,7 @@
 					)
 				)
 				(pin input line
-					(at -22.86 -22.86 0)
+					(at -19.05 -21.59 0)
 					(length 5.08)
 					(name "TRI_MIX"
 						(effects
@@ -786,6 +786,60 @@
 				)
 			)
 			(symbol "SSI2130_1_1"
+				(pin input line
+					(at -15.24 -31.75 0)
+					(length 2.54)
+					(name "Aux1Mix"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 -34.29 0)
+					(length 2.54)
+					(name "Aux2Mix"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -38.1 0)
+					(length 2.54)
+					(name "TCAP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at 19.05 26.67 0)
 					(length 2.54)
@@ -1208,6 +1262,15 @@
 		)
 		(pin "8"
 			(uuid "038fdbe4-2abe-4597-a80a-504f5aeb72ba")
+		)
+		(pin "12"
+			(uuid "c49d97af-1516-4214-b3f8-9b7bbec3783c")
+		)
+		(pin "13"
+			(uuid "c85ccae8-5472-4a96-8bae-2d7853702566")
+		)
+		(pin "14"
+			(uuid "065f86a1-c51c-4dfe-b849-a5e04f96c88b")
 		)
 		(instances
 			(project ""

@@ -1,0 +1,89 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "4b76d7ba-2e9a-48ca-9682-f8dc31b1b3ae")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 205.74 93.98)
+		(size 33.02 33.02)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9f3f10a8-02e7-4a05-b28e-500e1fcbd8f5")
+		(property "Sheetname" "VCOcore"
+			(at 205.74 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "vcocore.sch.kicad_sch"
+			(at 205.74 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "2130VCO"
+				(path "/4b76d7ba-2e9a-48ca-9682-f8dc31b1b3ae"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 58.42)
+		(size 12.7 5.08)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bc955f7d-a835-47ca-b755-faa87fe7cd77")
+		(property "Sheetname" "analogPower"
+			(at 190.5 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "analogPower.sch.kicad_sch"
+			(at 190.5 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "2130VCO"
+				(path "/4b76d7ba-2e9a-48ca-9682-f8dc31b1b3ae"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

@@ -6,6 +6,44 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 27.94 60.96)
+		(size 25.4 60.96)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "791a1c80-e33b-41e6-beec-99110c95ce86")
+		(property "Sheetname" "switch"
+			(at 27.94 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "switch.sch.kicad_sch"
+			(at 27.94 122.5046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "2130VCO"
+				(path "/4b76d7ba-2e9a-48ca-9682-f8dc31b1b3ae"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 205.74 93.98)
 		(size 33.02 33.02)
 		(fields_autoplaced yes)
